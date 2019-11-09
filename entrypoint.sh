@@ -25,4 +25,4 @@ echo "Downloading files..."
 lftp $WDEFAULT_METHOD://$FTP_SERVER:$WDEFAULT_PORT -u $FTP_USERNAME,$FTP_PASSWORD -e "set ftp:ssl-allow no; mirror $WDEFAULT_ARGS -R $WDEFAULT_REMOTE_DIR $WDEFAULT_LOCAL_DIR; quit"
 
 echo "FTP Upload Complete"
-exit 0
+exit 0 
