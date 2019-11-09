@@ -1,8 +1,8 @@
 FROM alpine:3.10
 
 LABEL version="1.0.0"
-LABEL repository="https://github.com/SamKirkland/FTP-Deploy-Action"
-LABEL homepage="https://github.com/SamKirkland/FTP-Deploy-Action"
+LABEL repository="https://github.com/ahbilal-ms/FTP-Deploy-Action"
+LABEL homepage="https://github.com/ahbilal-ms/FTP-Deploy-Action"
 LABEL maintainer="Sam Kirkland <FTP-Deploy-Action@samkirkland.com>"
 
 LABEL "com.github.actions.name"="FTP Deploy Action"
