@@ -1,4 +1,4 @@
-# FTP Deploy GitHub Action
+# FTP Upload GitHub Action
 
 Automate deploying websites and more with this GitHub action.
 
