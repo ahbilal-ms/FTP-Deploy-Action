@@ -1,4 +1,4 @@
-name: 'FTP Deploy'
+name: 'FTP Upload'
 description: 'Syncs files via FTP/SFTP to a remote server'
 inputs:
   ftp_server:
