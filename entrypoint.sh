@@ -22,7 +22,7 @@ fi;
 echo "Using $WDEFAULT_METHOD to connect to port $WDEFAULT_PORT"
 
 echo "Downloading files..."
-lftp $WDEFAULT_METHOD://$FTP_SERVER:$WDEFAULT_PORT -u $FTP_USERNAME,$FTP_PASSWORD -e "set ftp:ssl-allow no; get $WDEFAULT_REMOTE_DIR -o $WDEFAULT_LOCAL_DIR; quit"
+lftp $WDEFAULT_METHOD://$FTP_SERVER:$WDEFAULT_PORT -u $FTP_USERNAME,$FTP_PASSWORD -e "set xfer:clobber on;set ftp:ssl-allow no; get $WDEFAULT_REMOTE_DIR -o $WDEFAULT_LOCAL_DIR; quit"
 
 echo "FTP Upload Complete"
 exit 0 
