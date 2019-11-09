@@ -42,5 +42,5 @@ runs:
     - ${{ inputs.local_dir }}
     - ${{ inputs.remote_dir }}
 branding:
-  icon: 'upload-cloud'  
+  icon: 'upload-cloud'   
   color: 'orange'
